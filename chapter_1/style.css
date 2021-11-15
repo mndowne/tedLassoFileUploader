@@ -1,0 +1,43 @@
+
+
+html {
+    background: url(./tedLasso.jpeg) no-repeat center center fixed ;
+    background-color: grey;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.box {
+    width: 800px;
+    height: 180px;
+    background-color: rgba(200,200,200,0.3);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 15px;
+}
+
+.content {
+    width: 700px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0,0,200,0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -65px;
+    margin-left: -350px;
+    border-radius: 15px;
+}
+
+.fom {
+    font-size: 20px;
+}
+
+
+.instructionButton  {
+    font-size: 20px;
+}
