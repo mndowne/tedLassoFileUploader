@@ -35,6 +35,10 @@ app.get('/tedLasso', (req, res) => {
     res.sendFile('./chapter_1/tedLasso.html', { root: __dirname }); 
 });
 
+app.get('/completed', (req, res) => {
+    res.sendFile('./chapter_1/completed.html', { root: __dirname }); 
+});
+
 app.post('/convert', (req, res) => {
     console.log("started sending file: ");
     let to = req.body.to;
@@ -49,7 +53,7 @@ app.post('/convert', (req, res) => {
         console.log("File Uploaded successfully");
     })
 
-    res.redirect('/tedLasso');
+    res.redirect('/completed');
 
 });
 
